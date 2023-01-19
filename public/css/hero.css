@@ -1,6 +1,7 @@
 .hero {
     padding: 0.5em 1em 3em 5em;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -28,4 +29,13 @@
 
 .hero-video img {
     max-height: 500px;
+}
+
+
+/* PC */
+@media screen and (min-width: 950px) {
+    .hero {
+        justify-content: center;
+        flex-direction: row;
+    }
 }
