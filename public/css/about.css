@@ -10,6 +10,7 @@
 
 @media screen and (min-width: 950px) {
     .technologies-section {
+        grid-template-columns: 1fr 1fr 1fr;
         margin: 0 3em;
     }
 }
