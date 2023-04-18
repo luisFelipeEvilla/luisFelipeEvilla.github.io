@@ -35,6 +35,7 @@
 .project-image img {
     width: 384px;
     height: 257px;
+    border-radius: 5px;
 }
 
 .project-image a {
