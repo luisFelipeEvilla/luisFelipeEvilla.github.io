@@ -48,6 +48,13 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 
 

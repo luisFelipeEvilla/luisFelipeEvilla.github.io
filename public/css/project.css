@@ -1,0 +1,135 @@
+.project-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2  em;
+    padding-bottom: 2em;
+}
+
+.project-hero-text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 1em;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+.project-hero-title {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0em;
+    margin: 20px 0;
+}
+
+.project-hero-description {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 1em;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.project-hero-description ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.project-hero-description ul li {
+    text-align: center;
+}
+
+.project-hero-image img {
+    width: 800px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.project-description {
+    font-family: Inter;
+    text-align: center;
+    margin: 1em;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.project-description-title {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 1em;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+.project-description-features {
+    list-style: decimal;
+    text-align: start;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.project-gallery-container {
+    /* grid 3x2 */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* juntar los elementos */
+    grid-gap: 1em;
+    /* centrar los elementos */
+    justify-items: center;
+    align-items: center;
+    /* padding */
+    padding: 1em;
+    
+}
+
+/* on hover animation */
+.project-gallery-item img {
+    width: 400px;
+    height: 200px;
+}
+
+.project-gallery-item img:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .project-gallery-container {
+        /* grid 3x2 */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        /* juntar los elementos */
+        grid-gap: 1em;
+        /* centrar los elementos */
+        justify-items: center;
+        align-items: center;
+        /* padding */
+        padding: 1em;       
+    }
+}
