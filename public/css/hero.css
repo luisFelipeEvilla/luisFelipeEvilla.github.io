@@ -39,3 +39,14 @@
         flex-direction: row;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .hero-buttons {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .hero-buttons div:last-child {
+        margin-left: 0;
+    }
+}
