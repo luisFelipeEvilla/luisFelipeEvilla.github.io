@@ -41,12 +41,32 @@
 }
 
 @media screen and (max-width: 768px) {
+    .hero {
+        padding-left: 0 ;
+        justify-content: center;
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-description {
+        text-align: center;
+    }
+
     .hero-buttons {
         flex-direction: column;
         gap: 2em;
     }
 
+
     .hero-buttons div:last-child {
         margin-left: 0;
+    }
+
+    .hero-video img {
+        max-width: 400px;
     }
 }

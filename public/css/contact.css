@@ -43,11 +43,16 @@ border-radius: 13px;
     }
 
     .contact-icons {
-        flex-direction: column;
-        min-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
         align-items: center;
-        gap: 1.2em;
+        gap: 30px;
+    }
+
+    .contact-icons .icon {
+        display: flex;
+        justify-content: center;
     }
 }
     
