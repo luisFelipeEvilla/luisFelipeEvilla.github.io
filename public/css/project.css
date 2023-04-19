@@ -120,6 +120,11 @@
     transition: 0.5s;
 }
 
+.project-link {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
 @media screen and (max-width: 768px) {
     .project-gallery-container {
         /* grid 3x2 */
