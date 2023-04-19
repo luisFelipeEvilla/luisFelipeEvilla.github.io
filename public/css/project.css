@@ -31,7 +31,7 @@
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
     margin: 1em;
     max-width: 1000px;
     margin: auto;
@@ -39,14 +39,15 @@
 }
 
 .project-hero-description ul {
-    list-style-type: none;
-    margin: 0;
+    max-width: 300px;
+    list-style-type: decimal;
+    margin: 20px;
     padding: 0;
     text-align: center;
 }
 
 .project-hero-description ul li {
-    text-align: center;
+    text-align: left;
 }
 
 .project-hero-image img {
@@ -90,6 +91,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .project-gallery-container {
