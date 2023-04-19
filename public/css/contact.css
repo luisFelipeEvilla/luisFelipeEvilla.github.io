@@ -36,6 +36,10 @@ border-radius: 13px;
     margin: 0 2em;
 }
 
+.icon img:hover {
+    transform: scale(1.1);
+}
+
 @media screen and (max-width: 768px) {
     .contact {
         margin: 2em 3em;

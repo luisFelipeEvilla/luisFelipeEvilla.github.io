@@ -25,11 +25,10 @@
 
 .projects-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 3em;
     column-gap: 5em;
     margin: auto
-    
 }
 
 .project-image img {
@@ -48,16 +47,13 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
     .projects-container {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
 }
 
-
-
-
-
-
-
+@media screen and (min-width: 768px) {}

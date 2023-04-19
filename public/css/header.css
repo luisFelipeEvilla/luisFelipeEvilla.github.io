@@ -155,6 +155,7 @@
 
     .header-menu input[type="checkbox"]:checked~.header-navigation {
         transform: translateX(0);
+        transition-duration: 6s;
     }
 
     .header-menu input[type="checkbox"]:checked~.hamburger-lines .line1 {
